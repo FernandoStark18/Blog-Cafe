@@ -83,3 +83,43 @@ img {
     color: var(--blanco);
     margin: 5rem;
 }
+
+@media (min-width: 768px) {
+    .header__texto {
+        margin: 15rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.logo {
+    color: var(--blanco);
+}
+
+.logo__nombre {
+    font-weight: normal;
+}
+
+.logo__bold {
+    font-weight: bold;
+}
+
+.navegacion__enlace {
+    display: block;
+    gap: 1rem;
+    font-size: 1.8;
+    color: var(--blanco);
+}
+
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 2rem;
+    }
+}
