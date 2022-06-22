@@ -86,7 +86,7 @@ img {
 
 @media (min-width: 768px) {
     .header__texto {
-        margin: 15rem;
+        margin-top: 15rem;
     }
 }
 
@@ -121,5 +121,13 @@ img {
     .navegacion {
         display: flex;
         gap: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .contenido-principal {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
     }
 }
