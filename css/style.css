@@ -235,3 +235,16 @@ img {
 .curso:last-of-type {
     border: none;
 }
+
+.contacto-bg {
+    background-image: url(/img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.derechos {
+    color: var(--blanco);
+    font-size: 1.5rem;
+    margin: 0;
+}
