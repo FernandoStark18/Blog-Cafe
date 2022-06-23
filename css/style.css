@@ -217,13 +217,21 @@ img {
     }
 }
 
+/* Curso */
+
 @media (min-width: 768px) {
-    .cursos__page {
+    .curso {
         display: grid;
-        grid-template-columns: 1fr 3fr;
-        gap: 2rem;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
     }
-    .img {
-        margin-bottom: 2rem;
-    }
+}
+
+.curso {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--claro);
+}
+
+.curso:last-of-type {
+    border: none;
 }
